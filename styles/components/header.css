@@ -1,0 +1,55 @@
+body {
+    height: 90vh;
+    background-image: url(../../imagens/image-hero.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+}
+
+.header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.header__logo > a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav__ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #bfbfbf;
+    padding: 5px;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+}
+
+.nav__ul li a:hover {
+    transform: rotate(360deg); 
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.header__texto {
+    border: 2px #bfbfbf solid;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    width: 23ch;
+    color: #bfbfbf;
+    padding: 45px;
+}
