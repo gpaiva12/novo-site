@@ -1,5 +1,5 @@
-body {
-    min-height: 90vh;
+.header {
+    height: 90vh;
     background-image: url(../../imagens/image-hero.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
@@ -7,20 +7,20 @@ body {
     overflow: hidden;
 }
 
-body::before {
+.header::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste o valor da opacidade para a escuridão desejada */
     z-index: 1;
-    width: 90vh;
-    height: 90vh;
 }
 
-header, .header__texto, .nav__ul {
+.header__top, .header__texto {
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Garante que o texto fique acima da camada escura */
 }
 
 .header__top {
@@ -28,7 +28,7 @@ header, .header__texto, .nav__ul {
     justify-content: space-between;
     width: 100%;
     padding-inline: 10rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .header__logo {
@@ -73,5 +73,7 @@ header, .header__texto, .nav__ul {
     text-transform: uppercase;
     width: 23ch;
     color: #bfbfbf;
-    padding: 45px;
+    padding: 40px;
+    margin-left: 10rem;
+    margin-top: 8.3rem;
 }
