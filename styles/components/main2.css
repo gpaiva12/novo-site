@@ -1,0 +1,39 @@
+
+
+
+.section__2 div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 10rem 8rem 10rem;
+}
+
+.section2__h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3em;
+    font-weight: 500;
+    color: rgba(32, 26, 26, 0.89);
+    text-transform: uppercase;
+}
+
+.section2__btn {
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgba(32, 26, 26, 0.89);
+    border: 2px solid rgba(32, 26, 26, 0.89);
+    padding-inline: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.section2__btn:hover {
+    transform: scale(1.05);        /* Aumenta levemente o tamanho */
+    background-color: black;
+    color: white;
+}
+
+
+
