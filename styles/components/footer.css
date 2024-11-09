@@ -1,0 +1,63 @@
+
+
+.footer {
+    display: flex;
+    background-color: black;
+    height: 250px;
+    padding-inline: 10rem;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.logo__footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.logo__footer a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.nav__ul-footer {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.nav__ul-footer a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #bfbfbf;
+}
+
+.footer__redes-sociais img {
+    cursor: pointer;
+    padding: 2rem 0.65rem 0 0.65rem;
+}
+
+.footer-left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    color: #bfbfbf;
+}
+
+.rodapé {
+    background-color: black;
+    color: white;
+    justify-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 400
+}
+
+.rodapé > p > a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
